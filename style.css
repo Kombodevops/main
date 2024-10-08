@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/headline-section.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.insta {
+    width: 40%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* Mantendrá la proporción original de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    max-width: 100%; /* Evita que la imagen se salga del contenedor */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    padding-left: 20px; /* Añade un padding de 20px respecto al margen izquierdo */
+
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.logo-komvo {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
+.header-txt h1 {
+    font-size: 85px;
+    color: #100e2f;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header-txt p {
+    font-size: 24px;
+    color: #100e2f;
+    margin-bottom: 45px;
+    padding: 0 250px;
+    letter-spacing: -2%;
+    line-height: 52px;
+    font-weight: 350;
+}
+
+.contenedor_categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #e2ff00;
+    border-radius: 50px;
+    color: #e2ff00;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: #e2ff00;
+    color: #100e2f;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.column {
+    text-align: center;
+    margin: 20px;
+}
+
+.column img {
+    width: 100%;
+    max-width: 342.58px;
+    height: auto;
+    border-radius: 24px;
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.column h3 {
+    margin-top: 10px;
+    color: #7472fd;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.column p {
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.promo-section {
+    width: 100%;
+    height: auto;
+    padding: 72px 20px;
+    background-color: #100e2f;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+    opacity: 1;
+}
+
+.download-section {
+    background-color: #fff;
+    color: #100e2f;
+    text-align: center;
+    padding: 64px 50px;
+    width: 100%;
+    height: auto;
+}
+
+.download-section p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.78px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 40px; /* Añadido margen inferior para separar el texto de los botones */
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.app-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; /* Ancho fijo para ambos botones */
+    height: 50px; /* Altura fija para ambos botones */
+    overflow: hidden; /* Ocultar cualquier contenido que se salga del contenedor */
+}
+
+
+.app-button img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content-logo-komvo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+}
+
+@media(max-width:991px) {
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1b293a;
+        display: none;
+
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-txt h1{
+        font-size: 50px
+    }
+
+    .header-txt p{
+        padding: 0;
+    }
+
+    .general{
+        padding: 30px 30px 0 30 px;
+
+    }
+
+    .general-content{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .general-1
+    .general-2
+    .general-3
+    .general-4
+    .general-5
+    .general-6{
+        height: 350 px;
+        padding: 100px;
+        margin-bottom: 10px;
+
+    }
+
+    .info-1{
+        padding: 200px 30px;
+        background-size: cover;
+        margin-top: -110px;
+
+    }
+
+    .info-circle{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .circle-txt{
+        width: 100%;
+        margin-bottom: 25px;
+
+    }
+
+    .g2{
+        margin-top: -120px;
+    }
+    .info-2{
+        padding: 280px 30px;
+        background-size: cover;
+        margin-top: -180px;
+    }
+
+    .testi{
+        flex-direction: column;
+    }
+
+    .testi-left{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .testi-right{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .campo{
+        margin: 0 0 10px 0;
+    }
+
+    .footer-txt{
+        margin-top: 30px;
+    }
+
+
+}
