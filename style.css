@@ -130,10 +130,6 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.btn-1:hover {
-    background-color: #e2ff00;
-    color: #100e2f;
-}
 
 .container1 {
     display: flex;
@@ -281,6 +277,7 @@ body {
 
     .header-txt p{
         padding: 0;
+        line-height: 1.5;
     }
 
     .general{
