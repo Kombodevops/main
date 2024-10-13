@@ -13,10 +13,12 @@
     <!-- Sección de la cabecera -->
     <header class="header">
         <!-- Menú de navegación -->
+         
         <div class="menu container">
             <a href="https://www.instagram.com/komvo.es" target="_blank" >
                 <img src="images/VectorInstagram.png" alt="Disponible en Google Play" class="insta">
             </a>
+            <!--
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="images/menu.png" class="menu-icono" alt="Menú">
@@ -29,7 +31,9 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
+             -->
         </div>
+       
 
         <!-- Contenido de la cabecera -->
         <div class="header-content container">
@@ -73,6 +77,24 @@
         <p>Nos hemos esforzado mucho para asegurar que las mejores ofertas para grupos estén en nuestra plataforma disponibles para ti y tu grupo.</p>
     </div>
 
+    <!-- Sección del formulario -->
+    <section class="contact-form-section">
+        <div class="container">
+            <h2>¿Pensando en organizar un evento?</h2>
+            <p>¡Nosotros te ayudamos!</p>
+            <form action="send_email.php" method="post">
+                <label for="email">Correo de contacto:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="plan">Descripción del evento:</label>
+                <textarea id="plan" name="plan" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
     <!-- Sección de descarga -->
     <div class="download-section">
         <p>Comienza a hacer planes de manera fácil desde ya</p>
@@ -80,11 +102,15 @@
             <a href="https://apps.apple.com/es/app/komvo-haz-tu-plan/id6479173374" class="app-button app-store-button" target="_blank">
                 <img src="images/appstore.png" alt="Descárgalo en el App Store">
             </a>
+             <!--
             <a href="https://apps.apple.com/es/app/komvo-haz-tu-plan/id6479173374" class="app-button google-play-button" target="_blank">
                 <img src="images/googleplay.png" alt="Disponible en Google Play">
             </a>
+             -->
         </div>
     </div>
+
+  
 
     <!-- Sección del logo -->
     <div class="content-logo-komvo">

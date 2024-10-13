@@ -1,0 +1,3 @@
+<Files "send_email.php">
+    Allow from all
+</Files>
