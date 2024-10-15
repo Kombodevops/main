@@ -297,6 +297,45 @@ body {
 }
 
 
+.confirmation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 40px;
+
+    
+}
+
+.confirmation-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.confirmation-container h1 {
+    font-size: 36px;
+    color: #100e2f;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.confirmation-container p {
+    font-size: 18px;
+    color: #7472fd;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+
+
+
+
+
 @media(max-width:991px) {
     .menu{
         padding: 30px;
