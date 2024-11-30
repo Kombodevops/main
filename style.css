@@ -357,13 +357,13 @@ body {
 }
 
 .privacy-policy h1 {
-    font-size: 36px; /* Tamaño del título principal */
+    font-size: 24px; /* Tamaño del título principal */
     color: #100e2f; /* Color del texto */
     margin-bottom: 20px; /* Espaciado debajo del título */
 }
 
 .privacy-policy h2 {
-    font-size: 28px; /* Tamaño de los subtítulos */
+    font-size: 22px; /* Tamaño de los subtítulos */
     color: #7472fd; /* Color de los subtítulos */
     margin-top: 20px; /* Margen superior para separación */
     margin-bottom: 10px; /* Margen inferior para separación */
