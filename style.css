@@ -95,6 +95,12 @@ body {
     height: auto;
 }
 
+.logo-komvo2 {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
 .header-txt h1 {
     font-size: 85px;
     color: #100e2f;
@@ -232,11 +238,20 @@ body {
     margin-bottom: 20px;
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .logo-container img {
     width: 100%;
-    max-width: 80px;
+    max-width: 100px;
     height: auto;
 }
+
+
 
 /* Estilo para la sección del formulario */
 .contact-form-section {
@@ -330,6 +345,42 @@ body {
     margin-bottom: 10px;
     margin-left: 20px;
     
+}
+
+/* Estilos específicos para la Política de Privacidad */
+.privacy-policy {
+    background-color: #f9f9f9; /* Color de fondo suave */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.privacy-policy h1 {
+    font-size: 36px; /* Tamaño del título principal */
+    color: #100e2f; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.privacy-policy h2 {
+    font-size: 28px; /* Tamaño de los subtítulos */
+    color: #7472fd; /* Color de los subtítulos */
+    margin-top: 20px; /* Margen superior para separación */
+    margin-bottom: 10px; /* Margen inferior para separación */
+}
+
+.privacy-policy p {
+    font-size: 16px; /* Tamaño del texto */
+    color: #555; /* Color del texto */
+    margin-bottom: 15px; /* Espaciado entre párrafos */
+}
+
+.privacy-policy ul {
+    padding-left: 20px; /* Espaciado a la izquierda para listas */
+}
+
+.privacy-policy ul li {
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
 }
 
 
